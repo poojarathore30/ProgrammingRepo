@@ -4,6 +4,8 @@ vector<double> averageOfLevels(TreeNode* root) {
         double res;
         if(root==NULL) return f;
         TreeNode *temp;
+        
+        //level order traversal using queue
         q.push(root);
         while(1)
         {
