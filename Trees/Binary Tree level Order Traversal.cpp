@@ -1,4 +1,4 @@
-//logic appplied suing queue and finally reversing the obtained vector of vector
+//logic applied using queue and finally reversing the obtained vector of vector
 vector<vector<int>> levelOrderBottom(TreeNode* root) {
         queue<TreeNode*> q;
         vector<vector<int>> f;
